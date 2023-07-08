@@ -19,12 +19,14 @@
       confetiLimit: 100,
       confettiDestroyTime: 3000, //ms
       confettiRenderTime: 60, //ms
-      confettiSizeRange: [3, 7] };
+      confettiSizeRange: [3, 7]
+    };
 
 
     //classes store
     t.classes = {
-      'confettiContainer': 'confetti-container' };
+      'confettiContainer': 'confetti-container'
+    };
 
 
     //callbacks store
@@ -62,8 +64,8 @@
 
   Confetti.prototype.setupElements = function () {
     var t = this,
-    containerDOM = document.createElement('div'),
-    targetPosition = t.doms.target.style.position;
+      containerDOM = document.createElement('div'),
+      targetPosition = t.doms.target.style.position;
 
     containerDOM.className = t.classes['confettiContainer'];
 
@@ -101,13 +103,14 @@
     return Math.floor(Math.random() * t.doms.target.offsetWidth) + 'px';
   };
 
-  Confetti.prototype.generateConfetti = function () {var _confettiDOM$classLis, _confettiDOM$classLis2;
+  Confetti.prototype.generateConfetti = function () {
+    var _confettiDOM$classLis, _confettiDOM$classLis2;
     var t = this,
-    confettiDOM = document.createElement('div'),
-    confettiSize = t.getContainerSize(),
-    confettiBackground = t.getConfettiColor(),
-    confettiLeft = t.getConfettiPosition(),
-    confettiSpeed = t.getConfettiSpeed();
+      confettiDOM = document.createElement('div'),
+      confettiSize = t.getContainerSize(),
+      confettiBackground = t.getConfettiColor(),
+      confettiLeft = t.getConfettiPosition(),
+      confettiSpeed = t.getConfettiSpeed();
 
     confettiDOM === null || confettiDOM === void 0 ? void 0 : (_confettiDOM$classLis = confettiDOM.classList) === null || _confettiDOM$classLis === void 0 ? void 0 : _confettiDOM$classLis.add('confetti');
     confettiDOM === null || confettiDOM === void 0 ? void 0 : (_confettiDOM$classLis2 = confettiDOM.classList) === null || _confettiDOM$classLis2 === void 0 ? void 0 : _confettiDOM$classLis2.add('confetti-animation-' + confettiSpeed);
@@ -225,9 +228,12 @@
     states: {
       "default-state": {
         gradients: [
-        ['#ff8faf', '#ffe5ed'],
-        ['#f38fff', '#ffe5ed'],
-        ['#ff8f8f', '#ffe5ed']] } } });
+          ['#ff8faf', '#ffe5ed'],
+          ['#f38fff', '#ffe5ed'],
+          ['#ff8f8f', '#ffe5ed']]
+      }
+    }
+  });
 
 
 

@@ -67,7 +67,7 @@
 
 .card-wrapper .card .side.side-b .front .heart .circle,
 .card-wrapper .card .side.side-b .front .heart .rect {
-  background: #f9bec7;
+  background: #D62C38;
 }
 
 .card-wrapper .card .side.side-b .back .heart .title {
@@ -84,12 +84,12 @@
 
 .card-wrapper.active .card .side-a .front .heart .circle,
 .card-wrapper.active .card .side-a .front .heart .rect {
-  background: #ff5c8a !important;
+  background: #C72543 !important;
 }
 
 .card-wrapper.active .card .side-b .back .heart .circle,
 .card-wrapper.active .card .side-b .back .heart .rect {
-  background: #ff5c8a !important;
+  background: #C72543 !important;
 }
 
 .card-wrapper:not(.active) .heart {
@@ -108,7 +108,7 @@
 .heart .heart-half .circle {
   width: 280px;
   height: 280px;
-  background: red;
+  background: #B21D50;
   border-radius: 50%;
   transition: background 1s cubic-bezier(0, 0, 0, 0.94);
 }
@@ -116,7 +116,7 @@
 .heart .heart-half .rect {
   width: 280px;
   height: 280px;
-  background: red;
+  background: #B21D50;
   margin-top: -140px;
   transition: background 1s cubic-bezier(0, 0, 0, 0.94);
 }
@@ -128,7 +128,7 @@
   right: 10%;
   font-size: 38px;
   transform: rotate(45deg);
-  color: #ff0a54;
+  color: #cc84ad;
 }
 
 .ijustcode {
@@ -154,7 +154,7 @@
 .hljs-meta .hljs-string,
 .hljs-regexp,
 .hljs-string {
-  color: #c379ba;
+  color: #ce5daa;
   font-weight: 600;
 }
 
